@@ -35,6 +35,7 @@ const data: { projects: Project[] } = {
       techStack: ["React.js", "Node.js", "MongoDB", "Python", "Flask"],
       github: "https://github.com/Minukweerakoon/Reclaim-",
       image: "/projects/reclaim.png",
+      video: "/projects/reclaim-demo.mp4",
     },
     {
       id: 4,
