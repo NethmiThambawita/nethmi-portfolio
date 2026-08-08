@@ -76,7 +76,7 @@ export default function About() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   alt="Nethmi Thambawita"
-                  src="/profile.svg"
+                  src="/profile-photo.jpg"
                   className="h-full w-full object-cover"
                 />
               </div>
