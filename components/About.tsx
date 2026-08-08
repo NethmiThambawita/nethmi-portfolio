@@ -156,8 +156,19 @@ export default function About() {
                         led end-to-end QA of password authentication APIs.
                       </li>
                       <li>
+                        Enhanced and maintained Linux-based Asterisk
+                        applications integrated with agent call management
+                        systems.
+                      </li>
+                      <li>
+                        Investigated and resolved production issues, managed
+                        deployments, and delivered client-specific
+                        enhancements.
+                      </li>
+                      <li>
                         Managed client demos, stakeholder communication, and
-                        SRS/SOW documentation across the delivery lifecycle.
+                        SRS/Design/SOW/CR/UAT documentation across the
+                        delivery lifecycle.
                       </li>
                     </ul>
                   </div>
@@ -189,6 +200,10 @@ export default function About() {
                         Built a real-time call center reporting dashboard with
                         12 report modules and live KPI polling.
                       </li>
+                      <li>
+                        Performed unit testing for IVR applications using C#
+                        and UI testing with Cypress.
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -215,16 +230,21 @@ export default function About() {
                   </div>
 
                   <div>
-                    <p className="text-sm text-emerald-400">2022 - 2026</p>
+                    <p className="text-sm text-emerald-400">
+                      2022 - 2026 &middot; Completed
+                    </p>
                     <h4 className="text-white font-semibold mt-1">
                       BSc (Hons) in Information Technology
                     </h4>
                     <p className="text-gray-400 text-sm">
                       Sri Lanka Institute of Information Technology (SLIIT)
                     </p>
-                    <div className="mt-2">
+                    <div className="mt-2 flex flex-wrap gap-2">
                       <span className="px-3 py-1 text-xs rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-400/20">
                         IEEE Published Research
+                      </span>
+                      <span className="px-3 py-1 text-xs rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-400/20">
+                        GPA 2.83
                       </span>
                     </div>
                   </div>

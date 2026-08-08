@@ -4,8 +4,9 @@ import { ArrowUpRight, Github, Linkedin, Mail, ArrowUp } from "lucide-react";
 const quickLinks = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
   { href: "#skills", label: "Skills" },
+  { href: "#certifications", label: "Certifications" },
+  { href: "#projects", label: "Projects" },
   { href: "#contact", label: "Contact" },
 ];
 

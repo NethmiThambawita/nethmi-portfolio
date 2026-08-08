@@ -105,7 +105,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="tel:+94713365646"
+                href="tel:+94713365616"
                 aria-label="Call phone"
                 title="Call phone"
                 className="flex items-center gap-3 rounded-xl border border-emerald-500/20 bg-black/40 p-4 backdrop-blur-xl transition hover:border-emerald-400 hover:shadow-[0_0_22px_rgba(16,185,129,0.14)]"

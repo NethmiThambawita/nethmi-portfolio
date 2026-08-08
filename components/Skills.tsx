@@ -29,6 +29,8 @@ import {
   SiCypress,
 
   SiPandas,
+  SiVercel,
+  SiRender,
 } from "react-icons/si";
 import { VscAzure } from "react-icons/vsc";
 import { Database, Smartphone, FileSpreadsheet } from "lucide-react";
@@ -91,6 +93,8 @@ export default function Skills() {
         { name: "Figma", icon: SiFigma },
         { name: "Pandas", icon: SiPandas },
         { name: "openpyxl", icon: FileSpreadsheet },
+        { name: "Vercel", icon: SiVercel },
+        { name: "Render", icon: SiRender },
       ],
     },
   ];
