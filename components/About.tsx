@@ -13,6 +13,17 @@ import {
 import Reveal from "@/components/Reveal";
 import Container from "@/components/Container";
 
+const expertiseTags = [
+  "MERN Stack",
+  ".NET Core",
+  "React Native",
+  "TypeScript",
+  "REST APIs",
+  "MongoDB",
+  "API Security",
+  "QA/UAT",
+];
+
 const highlights = [
   {
     icon: Cpu,
@@ -111,6 +122,17 @@ export default function About() {
                 engagements. Co-authored an IEEE-published research paper on
                 device anomaly detection.
               </p>
+
+              <div className="mt-6 flex flex-wrap gap-2 border-t border-emerald-500/10 pt-6">
+                {expertiseTags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="rounded-full border border-emerald-400/20 bg-emerald-500/10 px-3 py-1 text-xs text-emerald-400"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
           </Reveal>
         </div>
