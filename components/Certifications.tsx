@@ -1,6 +1,7 @@
 import Reveal from "@/components/Reveal";
 import Container from "@/components/Container";
 import { Cloud, Award, Database, BrainCircuit } from "lucide-react";
+import { SiSharp } from "react-icons/si";
 
 const certifications = [
   {
@@ -20,6 +21,12 @@ const certifications = [
     title: "SQL (Basic & Intermediate)",
     issuer: "HackerRank",
     date: "Jun 2024",
+  },
+  {
+    icon: SiSharp,
+    title: "C# (Basic)",
+    issuer: "HackerRank",
+    date: "Aug 2026",
   },
   {
     icon: BrainCircuit,

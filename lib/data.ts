@@ -61,6 +61,19 @@ const data: { projects: Project[] } = {
       github: "https://github.com/NethmiThambawita/PawsPetCare",
       image: "/projects/paws.png",
     },
+    {
+      id: 6,
+      name: "Serendib Trails — Sri Lanka Travel Website",
+      description:
+        "Client-ready marketing website for a private Sri Lanka travel agency, with a cinematic hero, tour packages, destination gallery, testimonials, and an inquiry-focused contact flow. Reviewed for desktop, tablet, and mobile responsiveness and basic SEO.",
+      category: "personal",
+      collaboration: "individual",
+      featured: true,
+      techStack: ["React.js", "Tailwind CSS", "Vite", "JavaScript/JSX"],
+      github: "https://github.com/NethmiThambawita/Travelco",
+      live: "https://serendib-trails.netlify.app/",
+      image: "/projects/serendib-trails.png",
+    },
   ],
 };
 
