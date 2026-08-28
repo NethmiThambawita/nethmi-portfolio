@@ -12,6 +12,7 @@ type Props = {
 
 export default function ProjectCard({ project, index }: Props) {
   const [videoOpen, setVideoOpen] = useState(false);
+  const [imageFailed, setImageFailed] = useState(false);
 
   useEffect(() => {
     if (!videoOpen) return;
@@ -31,6 +32,19 @@ export default function ProjectCard({ project, index }: Props) {
           className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-60"
           style={{ background: "var(--gradient-hero)" }}
         />
+
+        {project.image && !imageFailed && (
+          <div className="relative aspect-[16/10] w-full overflow-hidden border-b border-emerald-500/10">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={project.image}
+              alt={project.name}
+              onError={() => setImageFailed(true)}
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0" />
+          </div>
+        )}
 
         <div className="flex flex-1 flex-col p-6 lg:p-7">
           {/* TOP BAR */}
