@@ -12,5 +12,6 @@ export type Project = {
   github?: string;
   live?: string;
   image?: string;
+  imagePosition?: string;
   video?: string;
 };
